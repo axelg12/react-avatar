@@ -147,6 +147,7 @@ export default class Avatar extends React.Component {
                 // console.log(state);
                 this.setState(state);
             } else {
+                this.setState({src: null});                
                 next();
             }
         });
